@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Packetra launcher mark: concentric radar rings with a crosshair and connected
+  nodes — "reconnaissance / discovery / network visibility". Cyan on the dark
+  launcher background. Drawn inside the adaptive-icon safe zone (centre ~33dp
+  radius of the 108dp canvas) so no part is clipped by a round/squircle mask.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+
+    <!-- Crosshair lines (drawn first, behind the rings and nodes) -->
+    <path android:strokeColor="#2A88B8" android:strokeWidth="2"
+        android:strokeLineCap="round" android:pathData="M54,22 L54,86" />
+    <path android:strokeColor="#2A88B8" android:strokeWidth="2"
+        android:strokeLineCap="round" android:pathData="M22,54 L86,54" />
+    <path android:strokeColor="#1E6C96" android:strokeWidth="1.5"
+        android:strokeLineCap="round" android:pathData="M32,32 L76,76" />
+    <path android:strokeColor="#1E6C96" android:strokeWidth="1.5"
+        android:strokeLineCap="round" android:pathData="M76,32 L32,76" />
+
+    <!-- Concentric radar rings -->
+    <path android:strokeColor="#38BDF8" android:strokeWidth="3"
+        android:pathData="M54,54 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+    <path android:strokeColor="#4FC3F7" android:strokeWidth="2.5"
+        android:pathData="M54,54 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" />
+    <path android:strokeColor="#7DD3FC" android:strokeWidth="2"
+        android:pathData="M54,54 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+
+    <!-- Connected nodes on the outer ring -->
+    <path android:fillColor="#7DD3FC" android:pathData="M54,54 m0,-30 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <path android:fillColor="#7DD3FC" android:pathData="M54,54 m30,0 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <path android:fillColor="#7DD3FC" android:pathData="M54,54 m0,30 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <path android:fillColor="#7DD3FC" android:pathData="M54,54 m-30,0 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <!-- Nodes on the mid ring (diagonals) -->
+    <path android:fillColor="#38BDF8" android:pathData="M68.1,39.9 m-2.6,0 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0" />
+    <path android:fillColor="#38BDF8" android:pathData="M39.9,68.1 m-2.6,0 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0" />
+
+    <!-- Centre node -->
+    <path android:fillColor="#E0F7FF" android:pathData="M54,54 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+</vector>

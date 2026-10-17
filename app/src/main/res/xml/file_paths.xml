@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Saved assessment reports (filesDir/reports) shared via the FileProvider. -->
+    <files-path name="reports" path="reports/" />
+    <!-- Packet captures (filesDir/captures) for sharing pcap/pcapng files. -->
+    <files-path name="captures" path="captures/" />
+</paths>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Packetra</string>
+    <string name="scope_banner_authorized">Authorized scope active</string>
+    <string name="scope_banner_none">No engagement selected — active modules are locked</string>
+</resources>

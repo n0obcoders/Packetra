@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sentinel_bg">#0E1116</color>
+    <color name="sentinel_surface">#161B22</color>
+    <color name="sentinel_accent">#3FB950</color>
+</resources>
