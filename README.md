@@ -41,7 +41,7 @@ permitted to assess. It is **not** an attack toolkit.
 - 📦 **Readable packets + n3-editor.** Every connection shows the first request
   and response bytes as **hex + ASCII + text**, and every capture is written to a
   **PCAPng** you can export. Open the export in
-  [**n3-editor**](https://github.com/n3-editor) — an advanced pcap-reader notepad —
+  [**n3-editor**](https://github.com/n0obcoders/n3-editor) — an advanced pcap-reader notepad —
   to read every packet and what it contains. After a capture records packets, a
   brief in-app prompt points you to it.
 - 📱 **Open the owning app in one tap** — launches the app, or opens its App-info
@@ -139,23 +139,7 @@ feature/reporting           JSON/CSV/HTML report rendering
 
 ---
 
-## Build
 
-```bash
-# Debug APK (self-signed with the committed debug keystore)
-./gradlew :app:assembleDebug
-# output: app/build/outputs/apk/debug/app-debug.apk
-adb install -r app/build/outputs/apk/debug/app-debug.apk
-
-# Unit tests (JVM, no device)
-./gradlew test
-```
-
-Requires the Android SDK (API 34 + Build-Tools 34). The first Gradle invocation
-downloads the wrapper distribution and dependencies from Google's Maven and Maven
-Central. See [BUILD.md](BUILD.md) for the full toolchain and release-signing steps.
-
----
 
 ## About the author
 
